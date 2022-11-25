@@ -30,7 +30,7 @@ The feature extraction implementations are located in ./utils/feature_extractor.
 ## Code implementations
 
 1. Generating dataset with `./datasets/create_dataset.py` (or re-code it)),
-2. According to the use of 4DRCNN or DGCNN_LSTM model, navigate to` ./datasets/ER_dataset.py` and modify normalized factors,
+2. According to the use of 4DRCNN or DGCNN_LSTM model, navigate to ` ./datasets/ER_dataset.py` and modify normalized factors,
 
 ```
 def normalize(data: torch.Tensor):
@@ -49,7 +49,7 @@ def normalize(data: torch.Tensor):
 
 ## Results
 
-Based on our private dataset and binary classification problems, 4DRCNN achieved ~80% accuracy, ~60% sensitivity and ~90% specificity; DGCNN_LSTM achieved >75% accuracy.
+Based on our private dataset and binary classification problems, 4DRCNN achieved ~80% accuracy, ~60% sensitivity and ~90% specificity; DGCNN_LSTM achieved ~84% accuracy, ~67% sensitivity and ~91% specificity.
 
 ## Reference
 

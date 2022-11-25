@@ -28,5 +28,5 @@ def plot_test_metrics(metric_path, fields=('accu', 'sens', 'spec', 'geom', 'auc'
     plt.close()
 
 if __name__ == '__main__':
-    metrics_path = './outputs_episode_total_epochs_50_DGCNN_LSTM/test.json'
+    metrics_path = './outputs_episode_total_epochs_50_DGCNN_LSTM2/test.json'
     plot_test_metrics(metrics_path)
