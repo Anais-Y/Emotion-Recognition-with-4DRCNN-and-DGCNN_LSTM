@@ -46,6 +46,7 @@ def normalize(data: torch.Tensor):
 
 3. If 4DRCNN, navigate to `main.py` and run it;
 4. if DGCNN_LSTM, navigate to `main_DGCNN_LSTM.py` and run it.
+5. ./utils/plot_test_metrics.py is used to plot test metrics along epoches.
 
 ## Results
 
